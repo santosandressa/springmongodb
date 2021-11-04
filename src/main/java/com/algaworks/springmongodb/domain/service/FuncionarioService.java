@@ -12,4 +12,6 @@ public interface FuncionarioService {
 	
 	public Funcionario create(Funcionario funcionario);
 	
+	public List<Funcionario> getFuncionariosByAgeRange(Integer de, Integer ate);
+	
 }
